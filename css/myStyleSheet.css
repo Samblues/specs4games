@@ -1,3 +1,9 @@
+.button1 {
+    background-color: #ffffff;
+}
+.nav-wrapper {
+    position: fixed;
+}
 .logo {
     display: inline-block;
     vertical-align: top;
