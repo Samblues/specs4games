@@ -10,23 +10,111 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
-  
-  <nav>
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
+    
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/mobilefriendly.js"></script>
+    </body>
+ 
+  <header>
+     <nav>
+        <div class="nav-wrapper black">
+            <div class="nav-wrapper container">
+            <a href="#" class="brand-logo center">Logo</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">Welcome To Spec4Games</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <img class="responsive-img" src="assets/header.jpeg" max-width="100%" height="auto" />
+     </header>
 
-  <img class="responsive-img" src="assets/header.jpg" max-width="100%" height="auto" />
+     <!-- Element Showed -->
+  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
   
-  <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
+    <!-- Tap Target Structure -->
+    <div class="tap-target" data-activates="menu">
+      <div class="tap-target-content">
+        <h5>Title</h5>
+        <p>A bunch of text</p>
+      </div>
+    </div>
+
+  <main>
+<div class="row container">
+    <!--Card 1-->
+    <div class="col s4">
+        <div class="card">
+            <div class="card-image">
+                <img src="assets/card1.jpeg">
+                <span class="card-title">-------------Find Your Spec-------------</span>
+            </div>
+            <div class="card-content">
+                <p> Simply click the button to go, choose 5 games that you wish to play and our system will output a minimum spec, recommended specs and a future proofed spec for you! </p>
+            </div>
+            <div class="Card action center">
+                <a href="#">This is a link</a>
+            </div>
+        </div>
+    </div>
+    <!--Card 2-->
+    <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/card2.jpg">
+                    <span class="card-title">----------Browse The forums-----------</span>
+                </div>
+                <div class="card-content">
+                    <p> This is not just a website to help you choose your specs based on games, make sure to head to the forums and discuss your games/specs and much more </p>
+                </div>
+                <div class="Card action center">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+       <!--Card 3-->
+        <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/card3.jpeg">
+                        <span class="card-title">-------------Report an issue-------------</span>
+                    </div>
+                    <div class="card-content">
+                        <p> The help and support section is there to help you with your account/techinical issues or any problems. <br> <br>Report issues so we can fix them!</p>
+                           
+                    </div>
+                    <div class="Card action center">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+  </main>
+ 
+  <footer class="page-footer black">
+        <div class="container">
+          <div class="row">
+              <div class="col s9 offset-s2">
+  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Link 1</a></div>
+  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3 " href="#!">Link 2</a></div>
+  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Link 3</a></div>
+  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Link 4</a></div>
+             </div>
+</div>
+        <div class="footer-copyright black">
+          <div class="container black">
+          © 2017 Copyright Text
+          <a class="grey-text text-lighten-3 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
 </html>
