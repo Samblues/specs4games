@@ -1,175 +1,229 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <!--My StyleSheet-->
-    <link href="css/myStyleSheet.css" type="text/css" rel="StyleSheet"/>
+    <link href="css/myStyleSheet.css" type="text/css" rel="StyleSheet" />
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-    
-    <body>
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/mobilefriendly.js"></script>
-    </body>
- 
-  <header>
-      <div class="navbar-fixed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/mobilefriendly.js"></script>
+</body>
+
+<header>
+    <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper black">
-             <div class="nav-wrapper container">
-                 <ul id="nav-mobile" class="center hide-on-med-and-down">
-             <li><a style="color:black" href="index.html" class="waves-effect waves-light btn white">Home</a></li>
-             </ul>
-             <ul id="nav-mobile" class="left hide-on-med-and-down">                    
-                <li><img class="logo" src="assets/logo.png"> </li>
-               </ul>
-             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a style="color:black" class="waves-effect waves-light btn white">Create</a></li>
-                <li><a style="color:black" class="waves-effect waves-light btn white">Login</a></li>
-                <li><a style="color:black" class="waves-effect waves-light btn white">My Account</a></li>
-                </ul>
+                <div class="nav-wrapper container">
+                    <ul id="nav-mobile" class="center hide-on-med-and-down">
+                        <li><a style="color:black" href="index.html" class="waves-effect waves-light btn white">Home</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><img class="logo" src="assets/logo.png"> </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a style="color:black" class="waves-effect waves-light btn white">Create</a></li>
+                        <li><a style="color:black" class="waves-effect waves-light btn white">Login</a></li>
+                        <li><a style="color:black" class="waves-effect waves-light btn white">My Account</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
 
-          
+
     </div>
     <img class="responsive-img" src="assets/header.jpeg" max-width="100%" height="auto" />
-     </header>
+</header>
 
-     <!-- Element Showed -->
-  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
-  
-    <!-- Tap Target Structure -->
-    <div class="tap-target" data-activates="menu">
-      <div class="tap-target-content">
+<!-- Element Showed -->
+<a id="menu" class="waves-effect waves-light btn btn-floating"><i class="material-icons">menu</i></a>
+
+<!-- Tap Target Structure -->
+<div class="tap-target" data-activates="menu">
+    <div class="tap-target-content">
         <h5>Title</h5>
         <p>A bunch of text</p>
-      </div>
+    </div>
+</div>
+
+<main>
+    <div class="row">
+        <!--Card 1-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/pubg.jpg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p> PlayerUnknown Battlegrounds</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 2-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/league.jpg">
+                    <span class="card-title center"></span>
+                </div>
+                <div class="card-content center">
+                    <p>League Of Legends </p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 3-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/destiny.jpg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p> Destiny 2</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--2nd Row Of Games-->
+    <!--Card 4-->
+    <div class="row">
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/starc.jpg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p> Star Citizen</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 5-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/arma3.jpg">
+                    <span class="card-title center"></span>
+                </div>
+                <div class="card-content center">
+                    <p>Arma III </p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 6-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/starWars.jpg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p> Star Wars Battlefront 2</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--3nd Row Of Games-->
+    <!--Card 6-->
+    <div class="row">
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/overwatch.jpeg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p>Overwatch</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 8-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/gta5.jpg">
+                    <span class="card-title center"></span>
+                </div>
+                <div class="card-content center">
+                    <p>Grand Theft Auto 5 </p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
+        <!--Card 9-->
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/callOfDuty.jpg">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content center">
+                    <p>Call Of Duty</p>
+                </div>
+                <div class="Card action center">
+                    <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <main>
-        <div class="row container">
-            <!--Card 1-->
-            <div class="col s4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/pubg.jpg">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content center">
-                        <p> PlayerUnknown Battlegrounds</p>
-                    </div>
-                    <div class="Card action center">
-                        <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                    </div>
-                </div>
+
+</main>
+
+
+
+
+
+
+<footer class="page-footer black">
+    <div class="container">
+        <div class="row">
+            <div class="col s9 offset-s2">
+                <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">About Us</a></div>
+                <div class="col s12 m6 l3"><a class="grey-text text-lighten-3 " href="#!">Forums</a></div>
+                <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Contact us</a></div>
+                <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Report A Problem</a></div>
             </div>
-            <!--Card 2-->
-            <div class="col s4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/league.jpg">
-                            <span class="card-title center"></span>
-                        </div>
-                        <div class="card-content center">
-                            <p>League Of Legends </p>
-                        </div>
-                        <div class="Card action center">
-                            <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                        </div>
-                    </div>
-                </div>
-               <!--Card 3-->
-            <div class="col s4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/destiny.jpg">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content center">
-                        <p> Destiny 2</p>
-                    </div>
-                    <div class="Card action center">
-                        <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                    </div>
-                </div>
-            </div>
-            <!--2nd Row Of Games-->
-                <!--Card 4-->
-                <div class="col s4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/starc.jpg">
-                            <span class="card-title"></span>
-                        </div>
-                        <div class="card-content center">
-                            <p> Star Citizen</p>
-                        </div>
-                        <div class="Card action center">
-                            <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Card 5-->
-                <div class="col s4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/arma3.jpg">
-                                <span class="card-title center"></span>
-                            </div>
-                            <div class="card-content center">
-                                <p>Arma III </p>
-                            </div>
-                            <div class="Card action center">
-                                <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                            </div>
-                        </div>
-                    </div>
-                   <!--Card 6-->
-                <div class="col s4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/starWars.jpg">
-                            <span class="card-title"></span>
-                        </div>
-                        <div class="card-content center">
-                            <p> Star Wars Battlefront 2</p>
-                        </div>
-                        <div class="Card action center">
-                            <a style="color:white" class="waves-effect waves-light btn black">I Want To Play This</a>
-                        </div>
-                    </div>
-                </div>
-        
-          </main>
-         
-
-
-
-
-
-    <footer class="page-footer black">
-        <div class="container">
-          <div class="row">
-              <div class="col s9 offset-s2">
-  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">About Us</a></div>
-  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3 " href="#!">Forums</a></div>
-  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Contact us</a></div>
-  <div class="col s12 m6 l3"><a class="grey-text text-lighten-3" href="#!">Report A Problem</a></div>
-             </div>
-</div>
-        <div class="footer-copyright black">
-          <div class="container black">
-          © 2017 Copyright Text
-          <a class="grey-text text-lighten-3 right" href="#!">Patreon Link</a>
-          </div>
         </div>
-      </footer>
+        <div class="footer-copyright black">
+            <div class="container black">
+                © 2017 Copyright Text
+                <a class="grey-text text-lighten-3 right" href="#!">Patreon Link</a>
+            </div>
+        </div>
+</footer>
+
 </html>
