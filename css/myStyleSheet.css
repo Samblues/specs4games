@@ -60,3 +60,10 @@ main {
    height: 10%;
     padding: 0;
   }
+
+  .gameImages {
+    padding-top: 8vh;
+  }
+  .fill-space {
+    height: 40vh;
+  }
