@@ -67,3 +67,11 @@ main {
   .fill-space {
     height: 40vh;
   }
+
+  .carousel .carousel-item {
+    width:500px !important;
+    height:500px !important}
+
+.video-foreground {
+filter: opacity(50%);
+}
